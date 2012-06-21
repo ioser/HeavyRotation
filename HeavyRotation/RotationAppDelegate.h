@@ -2,8 +2,8 @@
 //  RotationAppDelegate.h
 //  HeavyRotation
 //
-//  Created by Sara Duckler on 6/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Richard Millet on 6/19/12.
+//  Copyright (c) 2012 Millet Designs. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
