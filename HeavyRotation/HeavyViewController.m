@@ -42,4 +42,17 @@
 			UIInterfaceOrientationIsLandscape(interfaceOrientation));
 }
 
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+	UIColor *backgroundColor = nil;
+	
+	if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) {
+		backgroundColor = [UIColor redColor];
+	} else {
+		backgroundColor = [UIColor grayColor];
+	}
+	
+	[self.view setBackgroundColor:backgroundColor];
+}
+
 @end
